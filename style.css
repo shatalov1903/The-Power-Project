@@ -5,7 +5,7 @@ body {
 .wrapper {
   padding: 20px;
   background: linear-gradient(125deg, #fc3f5f 0%, #7d61ff 100.32%);
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 /* btn */
@@ -19,6 +19,7 @@ body {
 
 /* container */
 .container {
+  margin-inline: auto;
   max-width: 1410px;
   width: 100%;
   border-radius: 32px;
@@ -203,7 +204,7 @@ body {
     height: 100%;
     background: #333;
     transform: translateX(-110%);
-    transition: 0.2s transform ease-in-out;
+    transition: 0.2s all ease-in-out;
     visibility: hidden;
     pointer-events: none;
     opacity: 0;
